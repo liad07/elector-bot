@@ -1,5 +1,5 @@
 def sample_res(txt):
-    file = open("all.txt", "r", encoding="utf8")
+    file = open(input("enter file link here\n"), "r", encoding="utf8")
     x=file.read().split("\n")
     y=""
     for i in  range(len(x)):
