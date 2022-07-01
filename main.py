@@ -12,7 +12,7 @@ def handle_message(update, context):
 
 
 def main():
-    updater = Updater("5485679484:AAHG2M5g3WGpZ3Yib5i21GdXcj2ZiPMRoOs", use_context=True)
+    updater = Updater(apikey, use_context=True)
     dp = updater.dispatcher
 
     dp.add_handler(CommandHandler("start", start_command))
